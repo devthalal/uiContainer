@@ -1,0 +1,17 @@
+{
+  "name": "uiContainer",
+  "blockId": "UXcqbk774gjrWTs02tLUC",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/devthalal/uiContainer",
+    "ssh": "git@github.com:devthalal/uiContainer.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ]
+}
